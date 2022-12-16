@@ -1,13 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Point.Point p1 = new Point.Point(100, 200);
-        Point.Point p2 = new Point.Point(200, 200);
-        p1.draw();
-        p2.draw();
-        p2.setXY(50, 50);
-        p2 = p1;
-        p1.draw();
-        p2.draw();
+
 
         /*int [] arr = {30, 40, 10, 5, 34, 29, 8, 19};
         Util.sort(arr);
@@ -16,7 +9,7 @@ public class Main {
         }
         System.out.println();*/
 
-           /* Emp [] emps = new Emp[5];
+            Emp [] emps = new Emp[5];
             emps[0] = new Emp(303, "DD", 3400);
             emps[1] = new Emp(123, "FF", 4290);
             emps[2] = new Emp(421, "AA", 560);
@@ -56,7 +49,7 @@ public class Main {
 
 
             System.out.println();
-        }*/
+        }
     }
-    }
+
 
